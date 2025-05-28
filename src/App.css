@@ -1,0 +1,30 @@
+#root {
+  /* Supprimez text-align: center */
+  min-height: 100vh;
+}
+
+/* Ajoutez ces styles si nécessaire */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Style pour les boutons de catégorie */
+.category-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.category-btn.active {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.category-btn:hover {
+  background-color: #f3f4f6;
+}
